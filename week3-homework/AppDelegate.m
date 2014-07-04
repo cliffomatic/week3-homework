@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
+#import "TubeViewController.h"
+
 
 @implementation AppDelegate
 
@@ -14,6 +17,13 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    
+    MainViewController *mainviewcontroller = [[MainViewController alloc] init];
+    //TubeViewController *mainviewcontroller = [[TubeViewController alloc] init];
+    self.window.rootViewController = mainviewcontroller;
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

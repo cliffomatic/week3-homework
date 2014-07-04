@@ -19,6 +19,10 @@
 		91954D5C1964F82500CDE860 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91954D441964F82500CDE860 /* UIKit.framework */; };
 		91954D641964F82500CDE860 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91954D621964F82500CDE860 /* InfoPlist.strings */; };
 		91954D661964F82500CDE860 /* week3_homeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91954D651964F82500CDE860 /* week3_homeworkTests.m */; };
+		91954D721964F85000CDE860 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91954D701964F85000CDE860 /* MainViewController.m */; };
+		91954D731964F85000CDE860 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91954D711964F85000CDE860 /* MainViewController.xib */; };
+		91FB64C71965FC9600128284 /* TubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FB64C51965FC9600128284 /* TubeViewController.m */; };
+		91FB64C81965FC9600128284 /* TubeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91FB64C61965FC9600128284 /* TubeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		91954D611964F82500CDE860 /* week3-homeworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "week3-homeworkTests-Info.plist"; sourceTree = "<group>"; };
 		91954D631964F82500CDE860 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		91954D651964F82500CDE860 /* week3_homeworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = week3_homeworkTests.m; sourceTree = "<group>"; };
+		91954D6F1964F85000CDE860 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		91954D701964F85000CDE860 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		91954D711964F85000CDE860 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		91FB64C41965FC9600128284 /* TubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TubeViewController.h; sourceTree = "<group>"; };
+		91FB64C51965FC9600128284 /* TubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TubeViewController.m; sourceTree = "<group>"; };
+		91FB64C61965FC9600128284 /* TubeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TubeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,9 @@
 		91954D341964F82500CDE860 = {
 			isa = PBXGroup;
 			children = (
+				91954D6F1964F85000CDE860 /* MainViewController.h */,
+				91954D701964F85000CDE860 /* MainViewController.m */,
+				91954D711964F85000CDE860 /* MainViewController.xib */,
 				91954D461964F82500CDE860 /* week3-homework */,
 				91954D5F1964F82500CDE860 /* week3-homeworkTests */,
 				91954D3F1964F82500CDE860 /* Frameworks */,
@@ -110,6 +123,9 @@
 				91954D4F1964F82500CDE860 /* AppDelegate.h */,
 				91954D501964F82500CDE860 /* AppDelegate.m */,
 				91954D521964F82500CDE860 /* Images.xcassets */,
+				91FB64C41965FC9600128284 /* TubeViewController.h */,
+				91FB64C51965FC9600128284 /* TubeViewController.m */,
+				91FB64C61965FC9600128284 /* TubeViewController.xib */,
 				91954D471964F82500CDE860 /* Supporting Files */,
 			);
 			path = "week3-homework";
@@ -220,6 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				91954D4B1964F82500CDE860 /* InfoPlist.strings in Resources */,
+				91954D731964F85000CDE860 /* MainViewController.xib in Resources */,
+				91FB64C81965FC9600128284 /* TubeViewController.xib in Resources */,
 				91954D531964F82500CDE860 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +258,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				91954D511964F82500CDE860 /* AppDelegate.m in Sources */,
+				91954D721964F85000CDE860 /* MainViewController.m in Sources */,
+				91FB64C71965FC9600128284 /* TubeViewController.m in Sources */,
 				91954D4D1964F82500CDE860 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +457,7 @@
 				91954D6B1964F82500CDE860 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91954D6C1964F82500CDE860 /* Build configuration list for PBXNativeTarget "week3-homeworkTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +466,7 @@
 				91954D6E1964F82500CDE860 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
